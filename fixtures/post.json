@@ -1,0 +1,8 @@
+{
+  id: 123456789,
+  title: "My Test Post",
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  author: {
+    name: "John"
+  }
+}
