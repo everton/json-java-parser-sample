@@ -1,5 +1,5 @@
 # JFLAGS = -g -cp .:vendor/junit-4.9b3.jar
-JFLAGS = -cp .:vendor/junit-4.9b3.jar
+JFLAGS = -cp .:vendor/junit-4.9b3.jar:vendor/json-org-2010-01-31.jar
 JC = javac
 .SUFFIXES: .java .class
 .java.class:
@@ -7,8 +7,7 @@ JC = javac
 #	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-	JsonWalker.java \
-	TestJsonWalker.java \
+	TestJSONObject.java \
 	AllTests.java
 
 default: test
